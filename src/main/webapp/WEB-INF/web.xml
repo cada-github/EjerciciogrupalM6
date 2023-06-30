@@ -12,6 +12,7 @@
   </servlet-mapping>
   <display-name>proyectmaven</display-name>
   <welcome-file-list>
+    <welcome-file>ServletInicio</welcome-file>
     <welcome-file>index.html</welcome-file>
     <welcome-file>index.htm</welcome-file>
     <welcome-file>index.jsp</welcome-file>
@@ -38,5 +39,35 @@
   <servlet-mapping>
     <servlet-name>ServletCapacitacion</servlet-name>
     <url-pattern>/ServletCapacitacion</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>ListarCapacitaciones</display-name>
+    <servlet-name>ListarCapacitaciones</servlet-name>
+    <servlet-class>cl.awake.app.servlet.ListarCapacitaciones</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>ListarCapacitaciones</servlet-name>
+    <url-pattern>/ListarCapacitaciones</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>ServletCrearCapacitacion</display-name>
+    <servlet-name>ServletCrearCapacitacion</servlet-name>
+    <servlet-class>cl.awake.app.servlet.ServletCrearCapacitacion</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>ServletCrearCapacitacion</servlet-name>
+    <url-pattern>/ServletCrearCapacitacion</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>ServletListarCapacitaciones</display-name>
+    <servlet-name>ServletListarCapacitaciones</servlet-name>
+    <servlet-class>cl.awake.app.servlet.ServletListarCapacitaciones</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>ServletListarCapacitaciones</servlet-name>
+    <url-pattern>/ServletListarCapacitaciones</url-pattern>
   </servlet-mapping>
 </web-app>

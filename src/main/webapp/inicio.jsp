@@ -37,8 +37,8 @@
 							<li class="list-group-item list-group-item-primary">Cristian Díaz</li>
 						</ul>
 						<p>
-							<a class="link-opacity-100" href="https://github.com/cada-github/EjercicioGrupalM5.git">
-							GitHub: Ejercicio Grupal M5
+							<a class="link-opacity-100" href="https://github.com/cada-github/EjerciciogrupalM6">
+							GitHub: Ejercicio Grupal M6
 							</a>
 						</p>
 					</div>

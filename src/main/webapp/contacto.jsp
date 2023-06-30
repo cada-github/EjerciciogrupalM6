@@ -7,7 +7,12 @@
 		<meta charset="UTF-8">
 		<!--Bootstrap -->
 		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet">
-		<!--Bootstrap -->		
+		<!--Bootstrap -->
+		
+		<!-- Estilos propios -->
+		<link href="css/estilos.css" rel="stylesheet" type="text/css">
+		<!-- Estilos propios -->
+			
 		<title>contacto</title>
 	</head>
 	<body>
@@ -53,6 +58,14 @@
 	integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" 
 	crossorigin="anonymous">
 	</script>
-	<!-- JS BootStrap -->	
+	<!-- JS BootStrap -->
+	
+		<!-- JQuery -->
+	<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+	<!-- JQuery -->
+	
+	<!-- JS propios -->
+	<script src="js/validaciones.js"></script>
+	<!-- JS propios -->
 	</body>
 </html>

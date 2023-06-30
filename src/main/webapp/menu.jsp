@@ -16,14 +16,14 @@
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav me-auto mb-2 mb-lg-0">
         <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="Inicio">Inicio</a>
+          <a class="nav-link active" aria-current="page" href="ServletInicio">Inicio</a>
         </li>
         <li class="nav-item dropdown">
           <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
             Capacitaciones
           </a>
           <ul class="dropdown-menu">
-            <li><a class="dropdown-item" href="ServletCrearCapacitaciones">Crear</a></li>
+            <li><a class="dropdown-item" href="ServletCrearCapacitacion">Crear</a></li>
             <li><a class="dropdown-item" href="ServletListarCapacitaciones">Listar</a></li>
           </ul>
         </li>                

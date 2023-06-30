@@ -7,15 +7,16 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
 /**
- * Servlet implementation class ServletCapacitacion
+ * Servlet implementation class ServletListarCapacitaciones
  */
-public class ServletCapacitacion extends HttpServlet {
+public class ServletListarCapacitaciones extends HttpServlet {
 	private static final long serialVersionUID = 1L;
-
+       
     /**
-     * Default constructor. 
+     * @see HttpServlet#HttpServlet()
      */
-    public ServletCapacitacion() {
+    public ServletListarCapacitaciones() {
+        super();
         // TODO Auto-generated constructor stub
     }
 
@@ -23,8 +24,8 @@ public class ServletCapacitacion extends HttpServlet {
 	 * @see HttpServlet#doGet(HttpServletRequest request, HttpServletResponse response)
 	 */
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-
-		request.getRequestDispatcher("capacitacion.jsp").forward(request, response);
+		
+		request.getRequestDispatcher("listar-capacitaciones.jsp").forward(request, response);
 		
 	}
 
